@@ -1,24 +1,3 @@
-// const promise = new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//         const respose = {
-//             name: 'Alice'
-//         }
-//         // resolve(respose);
-//         reject('unknown error');
-//     }, 5000);
-// });
-// console.log(promise);
-// promise.then(res => console.log(res)).catch(err => console.log('error', err));
-// const body = document.body;
-// const cardtemplate = (messageUsername, messageText) => {
-//     return `<div class="message"> <span class="message-nickname">${messageUsername}</span> <span>:</span> <span class="message-text">${messageText}</span> </div>`;
-// };
-// fetch('https://pokeapi.co/api/v2/pokemon/ditto')
-//     .then(res => res.json())
-//     .then(res => {
-//     body.insertAdjacentHTML("beforeend", cardtemplate('Lord', 'Anything'));
-//     })
-//     .catch(err => console.log('error', err));
 const sendButton = document.querySelector('#send');
 const userInput1 = document.querySelector('#user-input1');
 const userInput2 = document.querySelector('#user-input2');

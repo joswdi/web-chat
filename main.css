@@ -1,0 +1,55 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h1 {
+    display: none;
+}
+
+.header {
+    background-color: #A9D8B8;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.namesite {
+    padding-left: 20px;
+}
+
+.header-button {
+    text-decoration: none;
+    color: white;
+}
+
+.namesite {
+    font-family: 'Roboto Consended';
+    font-weight: 700;
+}
+
+.main {
+    padding-left: 10px;
+    background-color: #A7C4B5;
+    height: 700px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.card {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-right: 10px;
+}

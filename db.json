@@ -1,4 +1,14 @@
 {
   "chatSession": [
+    {
+      "userName": "Lisa",
+      "userMessage": "I love everyone~",
+      "id": 1
+    },
+    {
+      "userName": "Max",
+      "userMessage": "Helloooo",
+      "id": 2
+    }
   ]
 }

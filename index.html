@@ -3,63 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="./style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <title>Web chat</title>
+    <title>Profile</title>
 </head>
 <body>
+    <h1>GitChat</h1>
     <div class="container">
-        <h1>My Chat</h1>
-        <div class="message-wrapper">
-            <ul id="messages-list" style="list-style-type: none; padding: 20px;">
-                <li>
-                    <div class="message">
-                        <span class="message-nickname">Some name</span>
-                        <span>:</span>
-                        <span class="message-text">Hello!</span>
-                    </div>
-                </li>
-                <li>
-                    <div class="message">
-                        <span class="message-nickname">Some name</span>
-                        <span>:</span>
-                        <span class="message-text">Hello world!</span>
-                    </div>
-                </li>
-            </ul>  
-        </div>
-        <div class="send-messages-wrapper">
+        <header class="header">
             <div class="row">
-                <div class="col-3 send-block">
-                    <span>Nickname:</span>
-                    <input id="user-input1" class="send-messages-input" rows="2"></input>
+                <div class="col-2"><h2 class="namesite">GitChat</h2></div>
+                <div class="col-1">
+                    <button type="button" class="btn btn-outline-light">
+                        <a class="header-button" href="./index.html">Profile</a>
+                    </button>
                 </div>
-                <div class="col-7 send-block">
-                    <span>Message:</span>
-                    <input id="user-input2" class="send-messages-input" rows="2"></input>
-                </div>
-                <div class="col-2">
-                    <button id="send" class="send-messages-button" type="button">Send</button>
+                <div class="col-1">
+                    <button type="button" class="btn btn-outline-light position-relative">
+                        <a class="header-button" href="./chat.html">Chat</a>
+                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">New alerts</span>
+                    </span>
+                </button>
                 </div>
             </div>
-        </div>
+        </header>
+        <main class="main">
+            <div class="info">
+                <img src="./Follow_ @elegant_ee.jfif" alt="avatar" class="avatar">
+                <h3>Kristi</h3>
+            </div>
+            <div class="card">
+                <h3>Some info about me:</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui pariatur ducimus, voluptas quia deleniti
+                        laudantium ab exercitationem cum labore, corrupti necessitatibus quis, excepturi sit quibusdam perferendis eaque
+                        praesentium laboriosam enim.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dignissimos fuga consequuntur atque amet
+                        animi. Molestiae doloribus quae ex laborum sunt suscipit a voluptatem assumenda officia consectetur deserunt
+                    </li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, illum magnam incidunt, maiores asperiores
+                        pariatur, numquam sequi saepe quo perferendis harum! Asperiores facilis, recusandae odit sed nam dolores soluta.
+                        Quas ipsum ab modi nostrum delectus ratione distinctio quod repellendus ut?</li>
+                </ul>
+            </div>
+        </main>
     </div>
-
-
-
-    <script src="./index.js"></script>
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"></script>
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 </html>
