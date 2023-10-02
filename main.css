@@ -29,7 +29,7 @@ h1 {
 .main {
     padding-left: 10px;
     background-color: #A7C4B5;
-    height: 700px;
+    height: 900px;
 }
 
 .info {
@@ -52,4 +52,5 @@ h1 {
     border: 2px solid;
     border-radius: 4px;
     margin-right: 10px;
+    margin-top: 10px;
 }
